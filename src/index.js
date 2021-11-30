@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-
+import './style/index.less' //导入全局CSS
+import Router from './router/index.jsx'
+import "antd/dist/antd.css"
+import { BrowserRouter } from "react-router-dom";
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <BrowserRouter>
+      <Router/>
+    </BrowserRouter>
+  ,
+  document.getElementById("root")
 );
-
