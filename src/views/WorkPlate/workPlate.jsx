@@ -185,7 +185,7 @@ export default class WorkPlate extends Component {
     return (
       <div>
         <Alert
-          message="提示收到了附近阿拉斯加地方来惊世毒妃"
+          message="人类的悲欢并不相通，我只觉得他们吵闹。"
           type="warning"
           className="mb-10"
           closable

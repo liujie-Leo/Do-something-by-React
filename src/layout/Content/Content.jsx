@@ -8,7 +8,6 @@ import RoleManage from '../../views/authorizationManage/roleManage/roleManage'
 import SumTool from '../../views/sumTool/sumTool'
 import Setting from '../../views/Setting/Setting'
 import WaterMaker from '../../views/waterMaker/waterMaker'
-
 export default class Content extends Component {
   render() {
     return (
@@ -20,7 +19,7 @@ export default class Content extends Component {
           <Route exact path="/admin/authorizationManage/accountManage" component={AccountManage}></Route>
           <Route exact path="/admin/authorizationManage/roleManage" component={RoleManage}></Route>
           <Route exact path="/admin/setting" component={Setting}></Route>
-          <Route exact path="/admin/waterMaker" component={WaterMaker}></Route>
+          <Route exact path="/admin/tools/waterMarker" component={WaterMaker}></Route>
         </Switch>
       </div>
     );
